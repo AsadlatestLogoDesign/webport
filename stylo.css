@@ -1,0 +1,81 @@
+body{
+   background-image: url("assets/back1.jpg");
+  
+}
+#background2{
+	 background-color: white;
+}
+.para{
+	
+	/* The image used */
+    background-image: url("assets/bv2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+	margin-top:50px;
+	font-family:verdana;
+}
+p{
+	font-family:verdana;
+}
+#marimg{
+	margin-top:200px;
+}
+
+#background4{
+	background-color: gray;
+}
+#back4{
+	background-image: url("assets/bv3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h5{
+	color:white;
+	
+}
+
+#makewhite{
+	color:white;
+	margin-left:60px;
+}
+#whi{
+	background-color: white;
+}
+#setmargin{
+	margin-left:40px;
+	padding:20px 70px;
+}
+
+#ml{
+	margin-left:320px;
+}
+
+
+navbar{
+	color:black;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+
+
